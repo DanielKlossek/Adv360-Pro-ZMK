@@ -3,6 +3,8 @@
 ## Notes
 - Good ZMK GUI configurator: https://nickcoutsos.github.io/keymap-editor
 - Layout inspired by: https://github.com/renerocksai/real-prog-qwerty?tab=readme-ov-file#what-it-looks-like
+    ![image](https://github.com/user-attachments/assets/48f3ae70-0ca5-4b08-9c01-aba83fe25e2f)
+
 
 ## Modifying the keymap
 
