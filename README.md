@@ -1,5 +1,9 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
+## Notes
+- Good ZMK GUI configurator: https://nickcoutsos.github.io/keymap-editor
+- Layout inspired by: https://github.com/renerocksai/real-prog-qwerty?tab=readme-ov-file#what-it-looks-like
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
