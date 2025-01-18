@@ -42,17 +42,17 @@
 &kp TAB    &kp Q         &kp W             &kp E           &kp R                 &kp T     &none                                                                                           &none                        &kp Y      &kp U                  &kp I            &kp O              &kp P       &kp BSLH
 &kp ESC    &kp A         &kp S             &kp D           &kp F                 &kp G     &kp LA(LC(LG(LEFT_SHIFT)))  &kp LCTRL  &kp LALT               &kp RIGHT_ALT          &kp RCTRL  &kp RA(RC(RG(RIGHT_SHIFT)))  &kp H      &kp J                  &kp K            &kp L              &kp SEMI    &kp SQT
 &mo 1      &kp Z         &kp X             &kp C           &kp V                 &kp B                                            &mt LEFT_GUI HOME      &mt RIGHT_GUI PAGE_UP                                          &kp N      &kp M                  &kp COMMA        &kp DOT            &kp FSLH    &mo 1
-&mo 4      &kp GRAVE     &caps_word        &kp LEFT        &kp RIGHT                       &kp BSPC                    &mo 2      &kp END                &kp PG_DN              &kp ENTER  &kp SPACE                               &kp DOWN_ARROW         &kp UP_ARROW     &kp AMPS           &kp EXCL    &mo 4
+&mo 4      &kp GRAVE     &caps_word        &kp LEFT        &kp RIGHT                       &kp BSPC                    &mo 2      &lt 3 END              &kp PG_DN              &kp ENTER  &kp SPACE                               &kp DOWN_ARROW         &kp UP_ARROW     &kp AMPS           &kp EXCL    &mo 4
             >;
         };
 
         ProgrammersQuerty_Shift {
             bindings = <
-&kp LS(EQUAL)  &kp N1         &kp N2     &kp N3     &kp N4     &kp N5     &tog 3                                              &mo 5   &kp N6     &kp N7          &kp N8         &kp N9       &kp N0        &kp LS(MINUS)
-&kp LS(TAB)    &kp LS(Q)      &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &none                                               &none   &kp LS(Y)  &kp LS(U)       &kp LS(I)      &kp LS(O)    &kp LS(P)     &kp LS(BSLH)
-&kp LS(ESC)    &kp LS(A)      &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &none          &trans   &trans      &trans  &trans  &none   &kp LS(H)  &kp LS(J)       &kp LS(K)      &kp LS(L)    &kp LS(SEMI)  &kp LS(SQT)
-&none          &kp LS(Z)      &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)                          &trans      &trans                  &kp LS(N)  &kp LS(M)       &kp LS(COMMA)  &kp LS(DOT)  &kp LS(FSLH)  &none
-&mo 4          &kp LS(GRAVE)  &trans     &kp LEFT   &kp RIGHT             &kp BACKSPACE  &kp DEL  &trans      &trans  &trans  &trans             &kp DOWN_ARROW  &kp UP_ARROW   &kp PERCENT  &kp AT        &none
+&kp LS(EQUAL)  &kp N1         &kp N2     &kp N3     &kp N4     &kp N5     &tog 3                                              &mo 5   &kp N6     &kp N7     &kp N8         &kp N9       &kp N0        &kp LS(MINUS)
+&kp LS(TAB)    &kp LS(Q)      &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &none                                               &none   &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)    &kp LS(P)     &kp LS(BSLH)
+&kp LS(ESC)    &kp LS(A)      &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &none          &trans   &trans      &trans  &trans  &none   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)    &kp LS(SEMI)  &kp LS(SQT)
+&none          &kp LS(Z)      &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)                          &trans      &trans                  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(DOT)  &kp LS(FSLH)  &none
+&mo 4          &kp LS(GRAVE)  &trans     &trans     &trans                &kp BACKSPACE  &kp DEL  &trans      &trans  &trans  &trans             &trans     &trans         &kp PERCENT  &kp AT        &none
             >;
         };
 
@@ -68,11 +68,11 @@
 
         keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                   &mo 5      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W   &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S   &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X   &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 4      &kp GRAVE  &trans  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 4
+&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &trans                                       &mo 5   &kp N6     &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                        &none   &kp Y      &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp ESC    &kp A      &kp S   &kp D   &kp F   &kp G   &none   &trans   &trans      &trans  &trans  &none   &kp H      &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+&kp LSHFT  &kp Z      &kp X   &kp C   &kp V   &kp B                    &trans      &trans                  &kp KP_N0  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&mo 4      &kp GRAVE  &trans  &trans  &trans          &trans  &kp DEL  &trans      &trans  &trans  &trans             &trans      &trans        &kp KP_DOT     &trans           &mo 4
             >;
         };
 
