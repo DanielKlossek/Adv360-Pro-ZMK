@@ -68,11 +68,11 @@
 
         keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &trans                                       &mo 5   &kp N6     &kp N7     &kp N8     &kp N9      &kp N0        &kp MINUS
-&kp TAB    &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                        &none   &kp Y      &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS  &kp BSLH
-&kp ESC    &kp A      &kp S   &kp D   &kp F   &kp G   &none   &trans   &trans      &trans  &trans  &none   &kp H      &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS   &kp SQT
-&kp LSHFT  &kp Z      &kp X   &kp C   &kp V   &kp B                    &trans      &trans                  &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_ENTER  &kp RSHFT
-&mo 4      &kp GRAVE  &trans  &trans  &trans          &trans  &kp DEL  &trans      &trans  &trans  &trans             &trans     &trans     &kp KP_DOT  &trans        &mo 4
+&kp LS(EQUAL)  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &trans                                       &mo 5   &kp N6     &kp N7     &kp N8     &kp N9      &kp N0        &kp LS(MINUS)
+&kp TAB        &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                        &none   &kp Y      &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS  &kp BSLH
+&kp ESC        &kp A      &kp S   &kp D   &kp F   &kp G   &none   &trans   &trans      &trans  &trans  &none   &kp H      &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS   &kp SQT
+&kp LSHFT      &kp Z      &kp X   &kp C   &kp V   &kp B                    &trans      &trans                  &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_ENTER  &kp RSHFT
+&mo 4          &kp GRAVE  &trans  &trans  &trans          &trans  &kp DEL  &trans      &trans  &trans  &trans             &trans     &trans     &kp KP_DOT  &trans        &mo 4
             >;
         };
 
