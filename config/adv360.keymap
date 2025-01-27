@@ -38,47 +38,37 @@
 
         ProgrammersQuerty {
             bindings = <
-&caps_word  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp HASH  &tog 3                                                                                                 &mo 5                        &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp DOLLAR  &kp GRAVE
+&caps_word  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp HASH  &tog 2                                                                                                 &mo 4                        &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp DOLLAR  &kp GRAVE
 &kp TAB     &kp Q         &kp W             &kp E           &kp R                 &kp T     &none                                                                                                  &none                        &kp Y      &kp U                  &kp I            &kp O              &kp P       &kp BSLH
-&kp ESC     &kp A         &kp S             &kp D           &kp F                 &kp G     &kp LA(LC(LG(LEFT_SHIFT)))  &kp LEFT_ALT      &kp DEL                &kp RIGHT_ALT          &kp RCTRL  &kp RA(RC(RG(RIGHT_SHIFT)))  &kp H      &kp J                  &kp K            &kp L              &kp SEMI    &kp SQT
+&kp ESC     &kp A         &kp S             &kp D           &kp F                 &kp G     &kp LA(LC(LG(LEFT_SHIFT)))  &kp LEFT_CONTROL  &kp LEFT_ALT           &kp RIGHT_ALT          &kp RCTRL  &kp RA(RC(RG(RIGHT_SHIFT)))  &kp H      &kp J                  &kp K            &kp L              &kp SEMI    &kp SQT
 &mo 1       &kp Z         &kp X             &kp C           &kp V                 &kp B                                                   &mt LEFT_GUI HOME      &mt RIGHT_GUI PAGE_UP                                          &kp N      &kp M                  &kp COMMA        &kp DOT            &kp FSLH    &mo 1
-&mo 4       &kp MINUS     &kp EQUAL         &kp LEFT        &kp RIGHT                       &lt 3 BACKSPACE             &kp LEFT_CONTROL  &kp END                &kp PG_DN              &kp ENTER  &kp SPACE                               &kp DOWN_ARROW         &kp UP_ARROW     &kp AMPS           &kp EXCL    &mo 4
+&mo 3       &kp MINUS     &kp EQUAL         &kp LEFT        &kp RIGHT                       &kp BACKSPACE               &lt 2 ESCAPE      &kp END                &kp PG_DN              &kp ENTER  &kp SPACE                               &kp DOWN_ARROW         &kp UP_ARROW     &kp AMPS           &kp EXCL    &mo 3
             >;
         };
 
         ProgrammersQuerty_Shift {
             bindings = <
-&trans       &kp N1         &kp N2         &kp N3     &kp N4     &kp N5     &tog 3                                                                                                                                &mo 5          &kp N6     &kp N7     &kp N8         &kp N9       &kp N0        &kp TILDE
+&trans       &kp N1         &kp N2         &kp N3     &kp N4     &kp N5     &tog 2                                                                                                                                &mo 4          &kp N6     &kp N7     &kp N8         &kp N9       &kp N0        &kp TILDE
 &kp LS(TAB)  &kp LS(Q)      &kp LS(W)      &kp LS(E)  &kp LS(R)  &kp LS(T)  &none                                                                                                                                 &none          &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)    &kp LS(P)     &kp LS(BSLH)
 &kp LS(ESC)  &kp LS(A)      &kp LS(S)      &kp LS(D)  &kp LS(F)  &kp LS(G)  &none              &kp LS(LEFT_CONTROL)  &kp LS(LEFT_ALT)                   &kp LS(RIGHT_ALT)                  &kp LS(RIGHT_CONTROL)  &none          &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)    &kp LS(SEMI)  &kp LS(SQT)
 &none        &kp LS(Z)      &kp LS(X)      &kp LS(C)  &kp LS(V)  &kp LS(B)                                           &mt LS(LEFT_COMMAND) LS(HOME)      &mt LS(RIGHT_COMMAND) LS(PAGE_UP)                                        &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(DOT)  &kp LS(FSLH)  &none
-&mo 4        &kp LS(MINUS)  &kp LS(EQUAL)  &trans     &trans                &kp LS(BACKSPACE)  &kp DEL               &lt 3 LS(END)                      &kp LS(PAGE_DOWN)                  &kp LS(ENTER)          &kp LS(SPACE)             &trans     &trans         &kp PERCENT  &kp AT        &none
-            >;
-        };
-
-        Symbols {
-            bindings = <
-&trans  &kp N1     &kp N2       &kp N3          &kp N4           &kp N5  &none                                       &none   &kp N6                &kp N7                 &kp N8     &kp N9  &kp N0  &trans
-&trans  &kp HASH   &kp AT_SIGN  &kp AMPERSAND   &kp ASTERISK     &none   &none                                       &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &none   &none   &trans
-&trans  &kp CARET  &kp EQUAL    &kp UNDERSCORE  &kp DOLLAR       &none   &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &none   &trans  &trans
-&trans  &kp TILDE  &kp GRAVE    &kp PERCENT     &kp EXCLAMATION  &none                   &trans      &trans                  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans  &trans  &trans
-&none   &none      &trans       &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans                        &trans                 &trans     &none   &none   &none
+&mo 3        &kp LS(MINUS)  &kp LS(EQUAL)  &trans     &trans                &kp LS(BACKSPACE)  &kp DEL               &lt 2 LS(END)                      &kp LS(PAGE_DOWN)                  &kp LS(ENTER)          &kp LS(SPACE)             &trans     &trans         &kp PERCENT  &kp AT        &none
             >;
         };
 
         keypad {
             bindings = <
-&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                       &mo 5   &kp N6     &kp N7     &kp N8     &kp N9      &kp N0        &trans
+&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                       &mo 4   &kp N6     &kp N7     &kp N8     &kp N9      &kp N0        &trans
 &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T   &none                                        &none   &kp Y      &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS  &kp BSLH
 &kp ESC    &kp A   &kp S   &kp D   &kp F   &kp G   &none   &trans   &trans      &trans  &trans  &none   &kp H      &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS   &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                    &trans      &trans                  &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_ENTER  &kp RSHFT
-&mo 4      &trans  &trans  &trans  &trans          &trans  &kp DEL  &trans      &trans  &trans  &trans             &trans     &trans     &kp KP_DOT  &trans        &mo 4
+&mo 3      &trans  &trans  &trans  &trans          &trans  &kp DEL  &trans      &trans  &trans  &trans             &trans     &trans     &kp KP_DOT  &trans        &mo 3
             >;
         };
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6   &tog 3                                      &mo 5   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6   &tog 2                                      &mo 4   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
@@ -96,13 +86,23 @@
             >;
         };
 
+        Symbols {
+            bindings = <
+&trans  &kp N1     &kp N2       &kp N3          &kp N4           &kp N5  &none                                       &none   &kp N6                &kp N7                 &kp N8     &kp N9  &kp N0  &trans
+&trans  &kp HASH   &kp AT_SIGN  &kp AMPERSAND   &kp ASTERISK     &none   &none                                       &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &none   &none   &trans
+&trans  &kp CARET  &kp EQUAL    &kp UNDERSCORE  &kp DOLLAR       &none   &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &none   &trans  &trans
+&trans  &kp TILDE  &kp GRAVE    &kp PERCENT     &kp EXCLAMATION  &none                   &trans      &trans                  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans  &trans  &trans
+&none   &none      &trans       &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans                        &trans                 &trans     &none   &none   &none
+            >;
+        };
+
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 3                                                   &mo 5      &kp N6  &kp N7          &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                   &mo 4      &kp N6  &kp N7          &kp N8        &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U           &kp I         &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J           &kp K         &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M           &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 4
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 3
             >;
         };
     };
